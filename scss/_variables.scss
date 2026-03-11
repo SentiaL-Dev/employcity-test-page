@@ -1,0 +1,45 @@
+// Colors
+$color-bg-dark: #22252a;
+$color-bg-darker: #3D4050;
+$color-bg-section: #272733;
+$color-accent: #43ABF0;
+$hero-text: #000000;
+$color-text: #ffffff;
+$color-text-muted: #bbbbbb;
+$color-input-bg: #ffffff;
+$color-step-border: #286690;
+$color-divider: #C3C3C3;
+$color-input-hover: #f8fcff;
+
+// Overlays (rgba)
+$color-overlay-subtle: rgba(255, 255, 255, 0.06);
+$color-overlay-track: rgba(255, 255, 255, 0.08);
+$color-overlay-light: rgba(255, 255, 255, 0.2);
+$color-overlay-medium: rgba(255, 255, 255, 0.7);
+$color-accent-glow: rgba(77, 184, 232, 0.4);
+$color-accent-glow-soft: rgba(77, 184, 232, 0.35);
+
+// Typography
+$font-size-base: 16px;
+$line-height-base: 1.5;
+
+// Spacing
+$container-padding: 20px;
+$section-padding-y: 120px;
+
+// Breakpoints
+$bp-mobile: 320px;
+$bp-mobile-mid: 480px;
+$bp-tablet: 768px;
+$bp-big-tablet: 860px;
+$bp-desktop: 1024px;
+$bp-wide: 1280px;
+
+// Header
+$header-height: 100px;
+$header-bg: rgba(16, 16, 29, 0.9);
+$header-font-size: 14px;
+
+// Transitions
+$transition-fast: 0.2s ease;
+$transition-normal: 0.3s ease;

@@ -1,0 +1,37 @@
+@use 'variables' as *;
+
+@mixin container {
+  max-width: $bp-wide;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: $container-padding;
+  padding-right: $container-padding;
+}
+
+@mixin visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+@mixin focus-visible {
+  outline: 2px solid $color-accent;
+  outline-offset: 2px;
+}
+
+@mixin respond-from($min-width) {
+  @media (min-width: $min-width) {
+    @content;
+  }
+}
+
+@mixin respond-to($max-width) {
+  @media (max-width: $max-width) {
+    @content;
+  }
+}

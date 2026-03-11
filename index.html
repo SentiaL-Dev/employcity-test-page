@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lorem Ipsum — бизнес-решения">
+  <title>LOREMIPSUM.NET</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <a href="/" class="header__logo">LOREMIPSUM.<span class="blue">NET</span></a>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__item"><a href="#business" class="header__link header__link--active">БИЗНЕС</a></li>
+          <li class="header__item"><a href="#about" class="header__link">О НАС</a></li>
+          <li class="header__item"><a href="#prices" class="header__link">ЦЕНЫ</a></li>
+          <li class="header__item"><a href="#order" class="header__link">ОФОРМИТЬ ЗАКАЗ</a></li>
+        </ul>
+      </nav>
+      <button class="header__burger" type="button" aria-label="Меню">
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__bg"></div>
+      <div class="hero__container">
+        <h1 class="hero__title">
+          <span class="blue">LOREM IPSUM</span> DOLOR SIT<br> AMET CONSECTETUR <span class="blue">ADIPISCING</span>
+        </h1>
+        <h4 class="hero__subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus!</h4>
+        <ul class="hero__list">
+          <li class="hero__list-item">Totam rem aperiam eaque ipsa</li>
+          <li class="hero__list-item">Sit voluptatem accusantium doloremque laudantium</li>
+          <li class="hero__list-item">Sed ut perspiciatis, unde omnis iste natus error</li>
+        </ul>
+        <div class="hero__actions">
+          <a href="#order" class="hero__btn hero__btn--primary">ЗАКАЗАТЬ</a>
+          <a href="#details" class="hero__btn hero__btn--secondary">ПОДРОБНЕЕ</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="order" id="order">
+      <div class="order__container">
+        <h2 class="order__title">
+          ОФОРМЛЕНИЕ <span class="blue">ЗАКАЗА</span>
+        </h2>
+        <p class="order__subtitle">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+
+        <ul class="order__steps">
+          <li class="order__step">
+            <span class="order__step-icon" aria-hidden="true">
+              <img src="assets/images/search-icon.png" alt="Lorem ipsum dolor sit amet">
+            </span>
+            <span class="order__step-label">Lorem ipsum dolor sit amet</span>
+          </li>
+          <li class="order__step">
+            <span class="order__step-icon" aria-hidden="true">
+              <img src="assets/images/percent-icon.png" alt="Consecteturadipiscing elit">
+            </span>
+            <span class="order__step-label">Consecteturadipiscing elit</span>
+          </li>
+          <li class="order__step">
+            <span class="order__step-icon" aria-hidden="true">
+              <img src="assets/images/file-icon.png" alt="Sed do eiusmod tempor">
+            </span>
+            <span class="order__step-label">Sed do eiusmod tempor</span>
+          </li>
+          <li class="order__step">
+            <span class="order__step-icon" aria-hidden="true">
+              <img src="assets/images/mail-icon.png" alt="Esse cillum dolore eu fugiat">
+            </span>
+            <span class="order__step-label">Esse cillum dolore eu fugiat</span>
+          </li>
+          <li class="order__step">
+            <span class="order__step-icon" aria-hidden="true">
+              <img src="assets/images/money-icon.png" alt="Excepteur sint occaecat cupidatat non proident">
+            </span>
+            <span class="order__step-label">Excepteur sint occaecat cupidatat non proident</span>
+          </li>
+        </ul>
+
+        <form class="order__form" action="#" method="post">
+          <div class="order__form-row order__form-row--triple">
+            <label class="order__field order__field--no-label">
+              <div class="order__custom-select" data-custom-select>
+                <select name="system_type" class="order__select-native" required aria-hidden="true" tabindex="-1">
+                  <option value="">Выберите тип системы</option>
+                  <option value="1">Sed ut perspiciatis</option>
+                  <option value="2">Nemo enim ipsam</option>
+                  <option value="3">Et harum quidem</option>
+                  <option value="4">Temporibus autem</option>
+                  <option value="5">Itaque earum rerum</option>
+                </select>
+                <button type="button" class="order__select-trigger" aria-haspopup="listbox" aria-expanded="false">
+                  <span class="order__select-value">Выберите тип системы</span>
+                  <svg class="order__select-arrow" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+                </button>
+                <ul class="order__select-dropdown" role="listbox" hidden>
+                  <li class="order__select-option" role="option" data-value="">Выберите тип системы</li>
+                  <li class="order__select-option" role="option" data-value="1">Sed ut perspiciatis</li>
+                  <li class="order__select-option" role="option" data-value="2">Nemo enim ipsam</li>
+                  <li class="order__select-option" role="option" data-value="3">Et harum quidem</li>
+                  <li class="order__select-option" role="option" data-value="4">Temporibus autem</li>
+                  <li class="order__select-option" role="option" data-value="5">Itaque earum rerum</li>
+                </ul>
+              </div>
+                           </label>
+            <label class="order__field order__field--no-label">
+              <input type="email" name="email" class="order__input" placeholder="Ваш e-mail" required>
+            </label>
+            <label class="order__field order__field--no-label">
+              <input type="text" name="name" class="order__input" placeholder="Ваше имя" required>
+            </label>
+          </div>
+          <div class="order__form-row order__form-row--slider-file">
+            <label class="order__field order__field--slider">
+              <span class="order__slider-header">
+                <span class="order__slider-label">Sed ut perspiciatis, unde omnis iste natus</span>
+                <span class="order__slider-value">
+                  <output name="range_value" for="range_input" class="order__slider-value-output">75</output><span>%</span>
+                </span>
+              </span>
+              <div class="order__range-wrap">
+                <input type="range" name="range" id="range_input" class="order__range" min="0" max="100" value="75">
+              </div>
+            </label>
+            <div class="order__file-wrap">
+              <input type="file" name="attachment" id="file_input" class="order__file-input" accept=".pdf,.doc,.docx">
+              <label for="file_input" class="order__file-label">
+                <svg class="order__file-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z" fill="currentColor"/></svg>
+                ПРИКРЕПИТЬ ФАЙЛ
+              </label>
+            </div>
+          </div>
+          <div class="order__form-submit">
+            <button type="submit" class="order__submit">ОТПРАВИТЬ</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__copyright">
+        <p class="footer__text">© 2018 «LOREMIPSUM.NET» Все права защищены.</p>
+      </div>
+      <div class="footer__divider" aria-hidden="true"></div>
+      <div class="footer__payments">
+        <div class="footer__payment-item">
+          <img class="footer__payment-icon" src="assets/images/qiwi.png" alt="" width="24" height="24">
+          <span class="footer__payment-name">QIWI wallet</span>
+        </div>
+        <div class="footer__payment-item">
+          <img class="footer__payment-icon" src="assets/images/ym.png" alt="" width="24" height="24">
+          <span class="footer__payment-name">Yandex Money</span>
+        </div>
+        <div class="footer__payment-item">
+          <img class="footer__payment-icon" src="assets/images/wm.png" alt="" width="24" height="24">
+          <span class="footer__payment-name">Web Money</span>
+        </div>
+      </div>
+      <div class="footer__divider" aria-hidden="true"></div>
+      <div class="footer__contacts">
+        <a href="mailto:info@ipsum228.com" class="footer__link">
+          <svg class="footer__icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          info@ipsum228.com
+        </a>
+        <a href="https://vk.com" target="_blank" rel="noopener noreferrer" class="footer__link">
+          <svg class="footer__icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M15.684 0H8.316C1.592 0 0 1.592 0 8.316v7.368C0 22.408 1.592 24 8.316 24h7.368C22.408 24 24 22.408 24 15.684V8.316C24 1.592 22.408 0 15.684 0zm3.692 17.123h-1.744c-.66 0-.864-.525-2.05-1.727-1.033-1-1.49-1.135-1.744-1.135-.356 0-.458.102-.458.593v1.575c0 .424-.135.678-1.253.678-1.846 0-3.896-1.118-5.335-3.202C4.624 10.857 4 8.57 4 8.096c0-.254.102-.491.593-.491h1.744c.44 0 .61.203.78.678.863 2.49 2.303 4.675 2.896 4.675.22 0 .322-.102.322-.66V9.721c-.068-1.186-.695-1.287-.695-1.71 0-.203.17-.407.44-.407h2.744c.373 0 .508.203.508.643v3.473c0 .372.17.508.271.508.22 0 .407-.136.813-.542 1.254-1.406 2.151-3.574 2.151-3.574.119-.254.322-.491.763-.491h1.744c.525 0 .644.27.525.643-.22 1.017-2.354 4.031-2.354 4.031-.186.305-.254.44 0 .78.186.254.796.779 1.203 1.253.745.847 1.32 1.558 1.473 2.05.17.49-.085.744-.576.744z"/></svg>
+          Мы вконтакте
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
